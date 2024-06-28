@@ -1,0 +1,71 @@
+h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #666;
+  font-family: 'FA Solid 900', goudy type;
+}
+
+
+
+
+nav {
+  background-color: #333; 
+  padding: 10px; 
+  padding-right: 10000px;
+  
+  }
+
+nav ul {
+  list-style: none; 
+  margin: 0; 
+  padding: 30; 
+  display: flex; 
+  justify-content: space-between; 
+ }
+
+
+nav li{
+  margin-right: 50px; 
+}
+
+nav a {
+  color: #fff; 
+  text-decoration: none; 
+}
+
+nav a:hover {
+  color: #ccc; 
+}
+
+nav {
+  display: flex;
+  justify-content: center; 
+}
+
+.fixed-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.absolute-element {
+  position: absolute;
+  top: 0;
+  left: 0; 
+}
+
+
+
+div.a{
+
+    text-align: center;
+
+}
+
+
+<style>
+ .vertical-align-element {
+    vertical-align: middle;
+  }
+</style>
+
